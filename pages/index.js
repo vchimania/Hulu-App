@@ -7,7 +7,7 @@ import requests from "utils/requests";
 const Func = ({ results }) => {
   console.log(results);
   return (
-    <div className="">
+    <div className="bg-[#06202A] text-gray-300">
       <title>App</title>
       <Header />
       <NavBar />

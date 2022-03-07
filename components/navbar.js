@@ -11,7 +11,7 @@ const NavBar = () => {
           {Object.entries(requests).map(([key, { title, url }]) => (
             <h2
               key={requests.title}
-              onClick={()=> router.push(`/genre=${key}`)}
+              onClick={()=> router.push(`/genre=${key}/${url}`)}
               className="last:pr-24 cursor-pointer transition duration-100 transform hover:scale-125 hover:text-blue active:text-red-500"
             >
               {title}
